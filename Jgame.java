@@ -40,6 +40,7 @@ public static void game()
       {
         System.out.println("Wrong input! Try again");
         System.out.println("Do You want to play again: Reply 1 for Yes and 2 for No");
+        ans=Integer.parseInt(System.console().readLine());
       }
       if(ans==2)
         break;
